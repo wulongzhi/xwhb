@@ -8,3 +8,13 @@ source .venv/Scripts/activate # Git Bash
 
 deactivate
 ```
+
+``` Shell
+pip list
+
+pip install scrapy
+```
+
+``` Shell
+scrapy startproject xwhb .
+```
