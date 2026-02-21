@@ -17,4 +17,8 @@ pip install scrapy
 
 ``` Shell
 scrapy startproject xwhb .
+
+scrapy crawl xinhua
+scrapy crawl xinhua -O xinhua.json
+scrapy crawl xinhua -o xinhua.jsonl
 ```
