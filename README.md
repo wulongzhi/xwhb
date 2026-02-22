@@ -13,6 +13,8 @@ deactivate
 pip list
 
 pip install scrapy
+pip install playwright
+pip install scrapy-playwright
 ```
 
 ``` Shell
@@ -21,4 +23,8 @@ scrapy startproject xwhb .
 scrapy crawl xinhua
 scrapy crawl xinhua -O xinhua.json
 scrapy crawl xinhua -o xinhua.jsonl
+```
+
+``` Shell
+playwright install
 ```
